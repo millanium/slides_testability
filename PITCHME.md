@@ -2,9 +2,16 @@
 
 ---
 
+## What means Testability
+
+Testability is a system/software quality attribute which describes if the system/software is testable and
+if so how easy it is testable.
+
+---
+
 ## Classification of Testability
 
-- epidemistic ("How narrow is the gap between what we know and what we need to know about the status of the product.")
+- epidemistic ("Testability influenced by the knowledge gap between what we know and what we should know about the product.")
 - project-related ("Testability influenced by changing conditions under which we test.")
 - value-related ("Testability influenced by changing the quality standard or our knowledge of it.")
 - subjective ("Testability influenced by changing the tester or the test process.")
@@ -45,6 +52,37 @@
 
 ---
 
+## Test Unsupported Refactoring to Testability Patterns
+
+Patterns which can be applied to enable changing the design of untestable production code
+which has no tests without changing its behaviour and without introducing regression bugs
+with the aim of making it testable.
+
+---
+
+## Classification of Test Unsupported Refactoring to Testability Patterns
+
+- psychological (based on psychological effects)
+- mechanistic (based on mechanism)
+
++++
+
+## Psychological Test Unsupported Refactoring to Testability Patterns
+
+- Hyperaware Editing (Feathers 2011, p. 319)
+- Single-Goal Editing (Feathers 2011, p. 321)
+- Pair Programming (Feathers 2011, p. 327)
+
++++
+
+## Mechanistic Test Unsupported Refactoring to Testability Patterns
+
+- Preserve Signature (Feathers 2011, p. 322)
+- Lean on the Compiler (Feathers 2011, p. 325)
+
+---
+
 ## References
 
-Bach, James: *Heuristics of Software Testability*, http://satisfice.com/tools/testability.pdf, Version 2.3, 2015
+- Bach, James: *Heuristics of Software Testability*, http://satisfice.com/tools/testability.pdf, Version 2.3, 2015
+- Feathers, Michael C.: *Effektives Arbeiten mit Legacy Code*, 1st edition, 2011
