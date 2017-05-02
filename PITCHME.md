@@ -50,6 +50,15 @@ if so how easy it is testable.
 
 ## Intrinsic Testability
 
+- observability -> any state or behaviour in any point "get-able" (direct and indirect inputs)
+- controllability -> any state or behaviour in any point "set-able" (direct and indirect outputs)
+- algorithmic simplicity -> easy correlation between inputs and outputs
+- conditional simplicity -> little paths
+- unbugginess -> little bugs
+- smallness -> little extend and interaction
+- decomposability -> "detachable" system components
+- similarity -> reuse known and trusted technologies
+
 ---
 
 ## Test Unsupported Refactoring to Testability Patterns
