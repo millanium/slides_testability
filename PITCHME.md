@@ -40,7 +40,26 @@ if so how easy it is testable.
 
 +++
 
-## Value-Related Testability
+## Value-Related Testability (1/2)
+
+- oracle availability -> as much info as possible (analyzation basis for problem identification)
+- oracle authority -> ones able to identify important problems
+- oracle reliability -> trustworthy over time and in much conditions
+- oracle precision -> as precise as (practically) possible
+- oracle inexpensiveness -> little cost or effort to aquire or operate
+
+oracle: anything which provides information relevant for testing (people, tools, documents, etc.)
+
++++
+
+## Value-Related Testability (2/2)
+
+- user stability & unity -> little user change and variety
+- user familiarity -> much understanding gathered with users (testing by users)
+- user availability -> talk with and observe users as much as possible
+- user data availability -> as much user specific (use case) data
+- user environment availability -> as natural/final environment as possible
+- user environment stability & unity -> little user environment and environment changes
 
 +++
 
