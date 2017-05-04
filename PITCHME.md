@@ -46,6 +46,14 @@ if so how easy it is testable.
 
 ## Subjective Testability
 
+- product knowledge -> know a lot, learn with exploratory testing
+- technical knowledge -> programming, technology, tools, sw development
+- domain knowledge -> user involvement
+- testing skill -> learn test patterns, system modeling, think critical
+- engagement -> tight integrattion of testing (roles) into (agile) development process
+- helpers -> much people considering about testing (even if not formally responsible)
+- test strategy -> as well-designed as possible
+
 +++
 
 ## Intrinsic Testability
